@@ -1,0 +1,25 @@
+.music-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.music-top__img__album {
+  width: 100px;
+  border: 2px solid rgb(48, 48, 48, 0.5);
+  border-radius: 6%;
+}
+.music-top__songinfo {
+  position: relative;
+  right: 60px;
+}
+.music-top__songinfo__title {
+  font-size: 60px;
+  padding-right: 100px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.music-top__songinfo__artist {
+  font-size: 20px;
+  font-weight: 600;
+}

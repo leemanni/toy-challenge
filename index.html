@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>💽 - Music Play List</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__btn">
+            <a href="?">
+                <i class="fas fa-times fa-2x"></i>
+            </a>
+        </div>
+        <div class="header__title">
+            <h2>Playlist</h2>
+        </div>
+        <div class="header__blank">
+        </div>
+    </header>
+
+    <div class="music-top">
+        <div class="music-top__img">
+            <img class="music-top__img__album" src="data:image/jpeg;base64,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">
+        </div>
+        <div class="music-top__songinfo">
+            <h2 class="music-top__songinfo__title">I</h2>
+            <h4 class="music-top__songinfo__artist">by TaeYean</h4>
+        </div>
+    </div>
+
+    <div class="music-btn">
+        <button class="music-btn__playbtn">▶ play</button>
+        <button class="music-btn__heartbtn">🤍</button>
+        <button class="music-btn__addbtn">+</button>
+    </div>
+
+    <div class="misic-list">
+        <ul class="misic-list" >
+            <li class="misic-list__song">
+                <img class="misic-list__songinfo__img" src="https://upload.wikimedia.org/wikipedia/ko/thumb/6/68/Taeyeon_-_My_Voice.jpg/220px-Taeyeon_-_My_Voice.jpg">
+                <div class="misic-list__songinfo">
+                    <h4 class="misic-list__songinfo__title">Fine</h4>
+                    <h6 class="misic-list__songinfo__artist">TaeYean</h6>
+                </div>
+            </li>
+            <li class="misic-list__song">
+                <img class="misic-list__songinfo__img" src="https://w.namu.la/s/e0ec4b28d8e05a05767f5819c517a4f217959ed8b86eb0406d3ed7ec2b17277bca229acc27b799632737e1d5ca6e996b040328e699446493c03606b2396a38249a0c8b9d059087848bd14c7483bbf07b041912930db58ba56b2d1124f156b7263273826f6143f79bda28c12828716f6f">
+                <div class="misic-list__songinfo">
+                    <h4 class="misic-list__songinfo__title">Why</h4>
+                    <h6 class="misic-list__songinfo__artist">TaeYean</h6>
+                </div>
+            </li>
+            <li class="misic-list__song">
+                <img class="misic-list__songinfo__img" src="https://image.bugsm.co.kr/album/images/500/202401/20240141.jpg">
+                <div class="misic-list__songinfo">
+                    <h4 class="misic-list__songinfo__title">Blue</h4>
+                    <h6 class="misic-list__songinfo__artist">TaeYean</h6>
+                </div>
+            </li>
+            <li class="misic-list__song">
+                <img class="misic-list__songinfo__img" src="https://w.namu.la/s/8e8dfe5d22f054e2f3574cca65e09e59a39a0a2b23d6f8dc46246c95a94b9665953229284774e0610428473091b2d8dd5eedbf1ab228a1691516cf881a5012b37576519e4ff245a12852f9af1bc4d55b">
+                <div class="misic-list__songinfo">
+                    <h4 class="misic-list__songinfo__title">Weekend</h4>
+                    <h6 class="misic-list__songinfo__artist">TaeYean</h6>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/27afa53023.js" crossorigin="anonymous"></script>
+</body>
+</html>

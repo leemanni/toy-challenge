@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+}
+.header__btn a {
+  color: black;
+}
+.header__title {
+  font-size: 30px;
+}
+.header__blank {
+  width: 25px;
+  height: 36px;
+}

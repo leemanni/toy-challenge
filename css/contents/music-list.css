@@ -1,0 +1,23 @@
+.misic-list__song {
+  margin-top: 30px;
+  display: flex;
+}
+.misic-list__songinfo__img {
+  width: 60px;
+  border: 3px solid rgb(48, 48, 48, 0.5);
+  border-radius: 10%;
+}
+.misic-list__songinfo {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.misic-list__songinfo__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.misic-list__songinfo__artist {
+  font-size: 14px;
+  color: rgb(49, 48, 48, 0.6);
+}

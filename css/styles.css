@@ -1,0 +1,22 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;600&display=swap");
+/* contents */
+@import "contents/header.css";
+@import "contents/music-top.css";
+@import "contents/music-btn.css";
+@import "contents/music-list.css";
+html {
+  display: flex;
+  width: 450px;
+  background-color: white;
+  justify-content: center;
+}
+body {
+  width: 400px;
+  height: 700px;
+  box-sizing: border-box;
+  padding: 30px 18px;
+  border: 7px solid plum;
+  background-color: rgb(206, 194, 194, 0.4);
+  border-radius: 20px;
+}
